@@ -18,6 +18,9 @@ public class Test02_DaoWithCqlSession {
     
     @Test
     public void should_list_vet_specialies() {
+
+        //System.out.println("== ASTRA ==");
+
         System.out.println(referenceListDao.findReferenceList("vet_specialty").block());
         
         StepVerifier.create(referenceListDao.findReferenceList("vet_specialty"))

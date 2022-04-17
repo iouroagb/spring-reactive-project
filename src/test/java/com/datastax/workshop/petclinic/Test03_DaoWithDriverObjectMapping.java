@@ -25,7 +25,7 @@ public class Test03_DaoWithDriverObjectMapping {
     public void should_create_and_show_vet() {
         // Save a VET
         VetEntity theNuttyProfessor = 
-                new VetEntity(MY_VET_ID, "Eddie", "Murphy", "surgery");
+                new VetEntity(MY_VET_ID, "Alfonso", "Davies", "surgery");
         
         StepVerifier.create(Mono.from(vetDao.upsert(theNuttyProfessor)))
             .expectComplete()
@@ -34,7 +34,7 @@ public class Test03_DaoWithDriverObjectMapping {
         System.out.println("Item saved.");
         
         StepVerifier.create(Mono.from(vetDao.findById(UUID.fromString(MY_VET_ID))).map(VetEntity::getFirstName))
-            .expectNext("Eddie")
+            .expectNext("Alfonso")
             .expectComplete()
             .verify();
         

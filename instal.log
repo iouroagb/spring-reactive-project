@@ -1,0 +1,88 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------< [0;36morg.springframework.samples:spring-petclinic-reactive[0;1m >--------[m
+[[1;34mINFO[m] [1mBuilding Pet Clinic Reactive 1.0.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mspring-petclinic-reactive[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mspring-petclinic-reactive[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 41 source files to /home/ismael/Bureau/datastax/workshop-spring-reactive/target/classes
+[[1;34mINFO[m] /home/ismael/Bureau/datastax/workshop-spring-reactive/target/generated-sources/annotations/com/datastax/workshop/petclinic/vet/db/VetReactiveDaoImpl__MapperGenerated.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/ismael/Bureau/datastax/workshop-spring-reactive/target/generated-sources/annotations/com/datastax/workshop/petclinic/vet/db/VetReactiveDaoImpl__MapperGenerated.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mspring-petclinic-reactive[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ismael/Bureau/datastax/workshop-spring-reactive/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mspring-petclinic-reactive[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 6 source files to /home/ismael/Bureau/datastax/workshop-spring-reactive/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mspring-petclinic-reactive[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.datastax.workshop.petclinic.[1mTest01_Connectivity[m
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 2.6.6
+
+
+17:56:15.406 [35mWARN [0;39m [36morg.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer[0;39m : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/home/ismael/.m2/repository/org/json/json/20090211/json-20090211.jar!/org/json/JSONObject.class
+	jar:file:/home/ismael/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+17:56:15.936 [35mINFO [0;39m [36mcom.datastax.workshop.petclinic.Test01_Connectivity[0;39m : Starting Test01_Connectivity using Java 11.0.14 on ismael-Aspire-E5-575G with PID 25241 (started by ismael in /home/ismael/Bureau/datastax/workshop-spring-reactive)
+17:56:15.937 [35mINFO [0;39m [36mcom.datastax.workshop.petclinic.Test01_Connectivity[0;39m : No active profile set, falling back to 1 default profile: "default"
+17:56:46.544 [35mINFO [0;39m [36mcom.datastax.astra.sdk.AstraClient           [0;39m : Setup of AstraClient from application.yaml
+17:56:46.641 [35mINFO [0;39m [36mcom.datastax.astra.sdk.config.AstraClientConfig[0;39m : Initializing [[33mAstraClient[0m]
+17:56:59.189 [35mINFO [0;39m [36mcom.datastax.astra.sdk.AstraClient           [0;39m : + API(s) Devops     [[32mENABLED[0m]
+17:56:59.190 [35mINFO [0;39m [36mcom.datastax.astra.sdk.AstraClient           [0;39m : + Db: id [[36m9bdc4855-7bd1-49b5-aea9-92226364e2ac[0m] and region [[36meurope-west1[0m]
+17:56:59.268 [35mINFO [0;39m [36mcom.datastax.astra.sdk.AstraClient           [0;39m : + Downloading bundles in: [[36m/home/ismael/.astra[0m]
+17:57:05.908 [35mINFO [0;39m [36mcom.datastax.astra.sdk.databases.DatabaseClient[0;39m : + SecureBundle found : scb_9bdc4855-7bd1-49b5-aea9-92226364e2ac_europe-west1.zip
+17:57:18.634 [35mINFO [0;39m [36mcom.datastax.astra.sdk.AstraClient           [0;39m : [[33mAstraClient[0m] has been initialized.
+17:57:41.785 [35mINFO [0;39m [36mcom.datastax.workshop.petclinic.Test01_Connectivity[0;39m : Started Test01_Connectivity in 88.064 seconds (JVM running for 96.972)
+== CQL_SESSION ==
++ Your Keyspace: spring_petclinic
++ Vet Specialty: 
+[dentistry, radiology, surgery]
+== ASTRA ==
++ Your OrganizationID: c426a7bd-27e1-4b8e-ad9c-a4754bec990a
++ Your Databases: 
+workshops	 : id=9bdc4855-7bd1-49b5-aea9-92226364e2ac, region=europe-west1
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 99.298 s - in com.datastax.workshop.petclinic.[1mTest01_Connectivity[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 2, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  03:06 min
+[[1;34mINFO[m] Finished at: 2022-04-08T17:57:54+02:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

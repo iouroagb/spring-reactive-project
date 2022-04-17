@@ -38,6 +38,7 @@ public class Test01_Connectivity {
                    .databasesNonTerminated()
                    .forEach(this::displayDB);
     }
+
     
     private void displayDB(Database db) {
         System.out.println(db.getInfo().getName() + "\t : id=" + db.getId() + ", region=" + db.getInfo().getRegion());
